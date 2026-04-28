@@ -7,3 +7,24 @@ body {
     padding: 0px;
     color: #344e5f;
 }
+
+header,section,aside,article,footer,figure {
+    display: block;
+}
+
+header {
+    background-color: white;
+    color: #44a5bd;
+    padding-top: 25px;
+}
+
+header h1 {
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+header h2 {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
