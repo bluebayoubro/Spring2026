@@ -44,4 +44,6 @@ nav a {
     display: block;
     width: 100px;
     text-decoration: none;
+    background-color: green;
+    color: white;
 }
