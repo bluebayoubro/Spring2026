@@ -47,3 +47,22 @@ nav a {
     background-color: green;
     color: white;
 }
+
+nav a:hover {
+    background-color: #344e5f;
+}
+
+footer {
+    color: white;
+    padding: 9px;
+    background-color: rgba(68,165,181,0.8);
+}
+
+footer p {
+    font-size: 10px;
+}
+
+.container {
+    width: 960px;
+    background-color: rgba(255,255,255,0.7);
+ }
