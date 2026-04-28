@@ -104,3 +104,9 @@ figcaption {
     float: left;
     margin-right: 7px;
 }
+
+h1,h2,h3 {
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
