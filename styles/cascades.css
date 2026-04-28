@@ -81,4 +81,26 @@ footer p {
     background-color: rgba(255,255,255,0.4);
     columns: #44a5b5;
     padding: 4px;
+    color: #44a5b5;
+}
+
+.sidebar a {
+    color: #44a5b5;
+}
+
+figure {
+    margin: 0px;
+}
+
+figcaption {
+  font-size: 10px;
+}
+
+.image-right {
+    float: right;
+}
+
+.image-left {
+    float: left;
+    margin-right: 7px;
 }
