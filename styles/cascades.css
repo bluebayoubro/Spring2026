@@ -8,7 +8,7 @@ body {
     color: #344e5f;
 }
 
-header,section,aside,article,footer,figure {
+header, section, aside, article, footer, figure {
     display: block;
 }
 
@@ -28,3 +28,20 @@ header h2 {
     font-size: 20px;
 }
 
+nav ul {
+    text-align: center;
+    list-style: none;
+    background-color: forestgreen;
+    margin-bottom: 15px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 9px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+}
