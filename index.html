@@ -11,18 +11,25 @@
     } 
         p {
             font-family: Arial, Helvetica, sans-serif;
-            color: gold;
+            color: darkorange;
         } 
     </style>
 </head>
 <body>
+    <div id="nav-placeholder"></div>
+        <script> fetch('../pages/nav.html') 
+        .then(response => response.text()) 
+        .then(data => { 
+        document.getElementById('nav-placeholder').innerHTML = data; }); 
+        </script>   
+
     <h1>Heath Thomson's Website, Welcome</h1>
     <h2>School & Course</h2> 
     <p>Everett Community College Graph130</p>
     <h3>How many quarters have you attended EvCC?</h3>
     <p>I have attended for seven quarters.</p>
     <h3>What degree/certificate program are you pursuing?</h3>
-    <p>I am pursuing the Graphic Design certificate.</p>
+    <p>I am pursuing the Graphic Design Associate's Degree.</p>
     <h3 style="font-size:25px; color: #3B753E;">Why did you choose this degree/certificate?</h3>
     <p>I chose this program because I like the blend of art and technology.</p>
     <h3>What artist/designer inspires you? Why?</h3>
