@@ -1,12 +1,12 @@
 :root {
     --blue:#11467d;
     --green:#4c7335;
-    --white:#fffff;
+    --white:light-grey;
     color:var(--blue);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body,header, main, footer, section, article, aside, {
+body, header, main, footer, section, article, aside {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -16,17 +16,27 @@ body,header, main, footer, section, article, aside, {
 main, header, nav ul, footer {
     display:grid;
     grid-template-columns: auto auto auto;
+    background-color: white;
 }
 
 main section {
     border: solid var(--white) 1px;
+    text-align: center;
     padding: 1rem;
 
 }
-/* the following classes will govern the sections and make them work */
-.item1, .item8 {
+.hero-orcas {
+    color: white;
+    text-align: center;
+}
+/* the following classes will govern the sections and make them work within the grid */
+.item1 {
     grid-column-start:1; 
     grid-column-end:3;
+}
+.item8, .item9, .item10, .hero-orcas {
+    grid-column-start:1; 
+    grid-column-end:4;
 }
 .item6 {
     grid-column-start:1; 
@@ -39,22 +49,19 @@ main section {
     height: 200px;
 }
 .pic2 {
-    background-image: url('../images/sj-images/sj-031.jpg');
+    background-image: url('../images/sj-images/sj-014.jpg');
 }
 .pic4 {
-    background-image: url('../images/sj-images/sj-039.jpg');
+    background-image: url('../images/sj-images/sj-011.jpg');
 }
 .pic6 {
-    background-image: url('../images/sj-images/sj-011.jpg');
+    background-image: url('../images/sj-images/sj-042.jpg');
 }
 .item7 {
     grid-column-start: 2;
     grid-column-end: 4;
 }
-.hero-orcas {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
+
 .header {
     background-color: var(--white);
     text-align: center;
@@ -78,7 +85,7 @@ header a, header p, nav a, label {
 h1 {
     color: var(--white);
     text-transform: uppercase;
-    text-shadow: white 3px 3px 3px;
+    text-shadow: #074817 3px 3px 3px;
 }
 
 nav ul {
@@ -88,8 +95,9 @@ nav ul li {
     list-style: none;
     text-align: center;
     height: 100px;
+    
 }
-nav ul li :hover {
+nav ul li:hover {
     background-color: var(--green);
     color: var(--white);
 }
@@ -97,23 +105,27 @@ nav ul li a :hover {
     color: var(--white);
 }
 main section {
-    height: 400px   ;
+    height: 400px;
 }
  .item1 {
     background-image: url('../images/sj-images/sj-015.jpg');
  }
- .item1 {
+ .item3 {
     background-image: url('../images/sj-images/sj-025.jpg');
  }
- .item1 {
+ .item5{
     background-image: url('../images/sj-images/sj-068.jpg');
  }
  .item1 {
     background-image: url('../images/sj-images/sj-022.jpg');
  }
- item2, .item4, .item6 {
+.item7 {
+    background-image: url('../images/sj-images/sj-039.jpg');
+ }
+ .item2, .item4, .item6 {
     background-image: none;
  }
  footer {
   padding: 1rem;
- }
+ } 
+ 
