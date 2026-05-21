@@ -12,7 +12,7 @@ main {
     grid-auto-rows: minmax(400px, auto);
     grid-template-areas: 
         "first second sidebar"
-        "frist middle sidebar"
+        "first middle sidebar"
         "first last sidebar"
         "bottom1 bottom1 bottom2";
 }
