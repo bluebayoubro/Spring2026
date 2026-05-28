@@ -10,7 +10,7 @@ body {
 }
 
 
-.hero{
+.history-hero{
     display: flex;
     justify-content: center; /*align horizontally*/
     align-items: center; /*align vertically*/
