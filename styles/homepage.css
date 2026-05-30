@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
 body {
@@ -39,7 +38,7 @@ nav a:hover {
 aside {
     width: 20%;
 }
-aside p {
+aside p, aside h3 {
     margin: 20px 20px 20px 0px;
 }
 
@@ -88,35 +87,35 @@ article {
 }
 /* individual project background images*/
 #history {
-    background-image: url("../images/8-tim-berners-lee.jpg");
+    background-image: url("../images/homepage/history.jpg");
 }
-#historyredux{
-    background-image: url("../images/8-tim-berners-lee.jpg");
+#history2{
+    background-image: url("../images/homepage/history-redux.jpg");
 }
 #theater {
-    background-image: url("../images/forrest.jpeg");
+    background-image: url("../images/homepage/theater.jpeg");
 }
 #stew {
-    background-image: url("../images/stew.jpeg");
+    background-image: url("../images/homepage/stew.jpg");
 }
 #cascades {
-    background-image: url("../images/cascade_mountains-bg.jpg");
+    background-image: url("../images/homepage/cascades.jpg");
 }
-#images {
-    background-image: url("../images/");
+#mobile-cascades {
+    background-image: url("../images/homepage/mobile-cascades.jpg");
+}
+#opt-images {
+    background-image: url("../images/homepage/optimized.jpg");
 }
 #fluid {
-    background-image: url("../images/ste");
+    background-image: url("../images/homepage/fluid.jpg");
 }
 #disco {
-    background-image: url("../images/ste");
+    background-image: url("../images/homepage/disco.jpg");
 }
-#media-quiries {
-    background-image: url("../images/ste");
-}s
-#san-juan {
-    background-image: url("../images/ste");
+#orcas {
+    background-image: url("../images/homepage/orcas.jpg");
 }
 #lopez {
-    background-image: url("../images/ste");
+    background-image: url("../images/homepage/lopez.jpg");
 }
