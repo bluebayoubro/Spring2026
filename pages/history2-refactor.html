@@ -9,15 +9,44 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link href="../styles/mobile.css" rel="stylesheet" type="text/css">
+<link href="../styles/nav.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-<div id="nav-placeholder"></div>
+<!-- <div id="nav-placeholder"></div>
     <script> fetch('nav.html') 
     .then(response => response.text()) 
     .then(data => { 
     document.getElementById('nav-placeholder').innerHTML = data; }); 
-    </script> 
+    </script>  -->
+    <nav class="navbar">
+        <div class="page-title">
+            <p>Graph 130</p>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+   </nav>
+    <nav class="hamish">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="theater.html">Theater Bill</a></li>
+            <li><a href="history2.html">History</a></li>
+            <li><a href="history2-refactor.html">History Redux</a></li>
+            <li><a href="stew.html">Stew</a></li>
+            <li><a href="cascades.html">Cascades</a></li>
+            <li><a href="mobile-cascades.html">Mobile Cascades</a></li>
+            <li><a href="orcas.html">Orcas Isl</a></li>
+            <li><a href="lopez.html">Lopez Isl</a></li>
+            <li><a href="media-queries.html">Disco</a></li>
+            <li><a href="opt-images.html">Optimized</a></li>
+            <li><a href="fluid.html">Fluid</a></li>
+            <li><a href="grid-based-project.html">Grids</a></li>
+        </ul>
+    </nav> 
+    <script src="../scripts/mobile-nav.js"></script>    
 
         <section class="history-hero">
             <h1>a brief history of the internet</h1>
