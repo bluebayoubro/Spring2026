@@ -1,0 +1,120 @@
+/* ==========================
+   GLOBAL
+========================== */
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#ffffff;
+}
+
+.page-wrapper{
+    max-width:1400px;
+    margin:auto;
+}
+
+/* ==========================
+   ROW ONE (YELLOW)
+========================== */
+
+.row-one{
+    background:#ffe600;
+    padding:12px;
+    margin-bottom:0;
+}
+
+.lead-story{
+    padding:10px;
+}
+
+.lead-story h2{
+    margin-top:0;
+    text-align:center;
+}
+
+.lead-story h3{
+    margin-top:0;
+}
+
+.lead-story p{
+    line-height:1.6;
+}
+
+/* IMAGE AREA */
+
+.feature{
+    padding:10px;
+}
+
+.feature figure{
+    margin:0;
+}
+
+.feature img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.feature figcaption{
+    text-align:center;
+    padding-top:10px;
+    font-style:italic;
+}
+
+/* ==========================
+   ROW TWO (BLUE)
+========================== */
+
+.row-two{
+    background:#16b5ff;
+    padding:12px;
+}
+
+.story{
+    padding:10px;
+}
+
+.story h4{
+    margin-top:0;
+    text-align:center;
+}
+
+.story p{
+    line-height:1.6;
+}
+
+/* ==========================
+   VISUAL GREEN BOXES
+   (for wireframe testing)
+========================== */
+
+.lead-story,
+.feature,
+.story{
+    background:#00b050;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media screen and (max-width:768px){
+
+    .row-one,
+    .row-two{
+        padding:10px;
+    }
+
+    .lead-story,
+    .feature,
+    .story{
+        margin-bottom:10px;
+    }
+
+}
