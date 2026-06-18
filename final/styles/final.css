@@ -21,6 +21,7 @@ a{
 }
 .site-header{
     margin-bottom:40px;
+   
 }
 .parent-container {
     display: flex;                  
@@ -37,6 +38,7 @@ ul {
 .title-section h1{
     
     display:inline-block;
+     flex-wrap: wrap ;
     
     margin:0 0 0px; 
     
